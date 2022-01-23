@@ -295,7 +295,7 @@ class Generate(QThread):
         self.signal1.emit("SUCCESS")
 
     def _get_keypair_filename(self):
-        return os.path.join(self.base_directory, self.filename + ".pem"), \
+        return os.path.join(self.base_directory, self.filename), \
                os.path.join(self.base_directory, self.filename + ".pub")
 
 
