@@ -22,7 +22,7 @@ class MyWindow(QWidget):
         self.center()
 
         self.label1 = QLabel(self)
-        self.label1.setText("Generate the keypair")
+        self.label1.setText("Generate keypair")
         self.label1.move(10, 10)
         self.label1.setFont(QFont("DengXian", font_size + 1, 75))
 
